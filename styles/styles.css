@@ -1,6 +1,8 @@
 :root {
   --branding-color: #daebee;
   --accent-color: #ff5125;
+  --accent-color-2: #b7d7de;
+  --accent-color-3: #fcedda;
   --heading-font-family: "Playfair Display", serif;
   --deafult-font-family: "Poppins", sans-serif;
 }
