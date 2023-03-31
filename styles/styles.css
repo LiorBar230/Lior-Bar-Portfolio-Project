@@ -29,6 +29,30 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 70px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--accent-color);
+}
 .hero {
   background: var(--branding-color);
   text-align: center;
@@ -123,6 +147,7 @@ p {
   border-radius: 20px;
   background-color: var(--accent-color);
   color: white;
+  text-align: center;
 }
 
 .contact-info h3 {
@@ -137,11 +162,17 @@ p {
   text-decoration: underline;
 }
 .header-accent-red {
-  background-color: #ff5125;
+  border: 5px solid var(--branding-color);
   border-radius: 10px;
-  color: white;
+  color: var(--accent-color);
   padding: 50px;
 }
+
+.logo {
+  max-width: 30px;
+  margin: 0;
+}
+
 @media (max-width: 900px) {
   h2 {
     font-size: 40px;
@@ -155,6 +186,12 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .content h1 {
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 10px;
   }
 
   .hero {
@@ -200,5 +237,25 @@ p {
     color: black;
     font-size: 15px;
     padding: 10px 20px;
+  }
+
+  .profile-img {
+    border-radius: 10px;
+    max-width: 300px;
+  }
+
+  .header-accent-red {
+    border: 5px solid var(--branding-color);
+    border-radius: 10px;
+    color: var(--accent-color);
+    padding: 0;
+  }
+
+  .contact-info {
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 5px;
   }
 }
