@@ -118,7 +118,30 @@ p {
   border-radius: 10px;
   background-color: var(--branding-color);
 }
+.contact-info {
+  border: 1px solid var(--accent-color);
+  border-radius: 20px;
+  background-color: var(--accent-color);
+  color: white;
+}
 
+.contact-info h3 {
+  color: white;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: white;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+.header-accent-red {
+  background-color: #ff5125;
+  border-radius: 10px;
+  color: white;
+  padding: 50px;
+}
 @media (max-width: 900px) {
   h2 {
     font-size: 40px;
